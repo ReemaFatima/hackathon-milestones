@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 20px;
+   background-color: #f4f4f4;
+   color: #333;
+}
+
+h1 {
+   text-align: center;
+   color: #2c3e50;
+}
+
+form {
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   max-width: 600px;
+   margin: 20px auto;
+}
+
+fieldset {
+   border: 1px solid #ddd;
+   padding: 10px;
+   margin-bottom: 15px;
+   border-radius: 4px;
+}
+
+legend {
+   font-weight: bold;
+   color: #34495e;
+}
+
+label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+   color: #34495e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+   width: 100%;
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid #ccc;
+   margin-bottom: 15px;
+   font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+   border-color: #3498db;
+   outline: none;
+}
+
+button {
+   background-color: #3498db;
+   color: white;
+   border: none;
+   padding: 10px 15px;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+button:hover {
+   background-color: #2980b9;
+}
+
+/* Resume Display Styling */
+#resume-display {
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   max-width: 600px;
+   margin: 20px auto;
+   min-height: 200px;
+}
+
+#resume-display h2,
+#resume-display h3 {
+   color: #2c3e50;
+}
+
+#resume-display p {
+   margin: 5px 0;
+   font-size: 16px;
+}
+
+/* Shareable Link Styling */
+#shareable-link-container {
+   max-width: 600px;
+   margin: 20px auto;
+   text-align: center;
+}
+
+#shareable-link {
+   display: block;
+   margin: 10px 0;
+   color: #3498db;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+#shareable-link:hover {
+   text-decoration: underline;
+}
+
+/* PDF Button Styling */
+#download-pdf {
+   background-color: #e74c3c;
+   margin-top: 10px;
+}
+
+#download-pdf:hover {
+   background-color: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+   form, #resume-display, #shareable-link-container {
+       width: 90%;
+       margin: 10px auto;
+   }
+}
